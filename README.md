@@ -2,6 +2,8 @@
 
 录合同智能体项目，包含 Spring Boot/Spring AI 后端和 Vue 前端页面。
 
+本项目是对原 Dify「录合同Agent」流程的 Spring AI 重写版本：保留 Dify 流程中的业务节点、接口调用和确认链路，并将其落地为后端 Tool 方法、流式接口和前端对话页面。
+
 ## 项目结构
 
 ```text
@@ -26,6 +28,8 @@
 
 ## 示例展示
 
+### 页面效果
+
 ![录合同示例 1](docs/images/demo-01.png)
 
 ![录合同示例 2](docs/images/demo-02.png)
@@ -35,6 +39,22 @@
 ![录合同示例 4](docs/images/demo-04.png)
 
 ![录合同示例 5](docs/images/demo-05.png)
+
+### Dify 原流程图
+
+![Dify 流程图 1](docs/images/dify-flow-01.png)
+
+![Dify 流程图 2](docs/images/dify-flow-02.png)
+
+![Dify 流程图 3](docs/images/dify-flow-03.png)
+
+## Dify 源文件
+
+原 Dify 流程源文件已同步到仓库：
+
+```text
+docs/dify/record-contract-agent.yml
+```
 
 ## 后端运行
 
