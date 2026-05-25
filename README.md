@@ -6,7 +6,7 @@
 
 ```text
 .
-├── heima-ai/                         # 后端项目 xiaoyu-ai
+├── xiaoyu-ai/                        # 后端项目 xiaoyu-ai
 │   ├── docs/                         # 技术文档
 │   ├── src/main/java/com/xy/ai/      # 后端源码
 │   ├── src/main/resources/mapper/    # MyBatis Mapper XML
@@ -41,7 +41,7 @@
 后端目录：
 
 ```powershell
-cd heima-ai
+cd xiaoyu-ai
 ```
 
 JDK 使用 Dragonwell 21：
@@ -106,7 +106,7 @@ http://localhost:5173/customer-service
 本仓库按要求没有提交任何 `.yml` / `.yaml` 文件，因此后端启动前需要自行补充：
 
 ```text
-heima-ai/src/main/resources/application.yaml
+xiaoyu-ai/src/main/resources/application.yaml
 ```
 
 配置中通常需要包含：
@@ -124,13 +124,13 @@ heima-ai/src/main/resources/application.yaml
 完整技术文档：
 
 ```text
-heima-ai/docs/technical-documentation.md
+xiaoyu-ai/docs/technical-documentation.md
 ```
 
 录合同流程文档：
 
 ```text
-heima-ai/docs/record-contract-flow.md
+xiaoyu-ai/docs/record-contract-flow.md
 ```
 
 ## 注意事项
