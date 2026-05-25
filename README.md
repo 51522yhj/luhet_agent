@@ -24,6 +24,18 @@
 - 请求中断：前端支持生成过程中取消请求。
 - 课程客服和通用聊天：保留原有课程咨询、游戏聊天、通用聊天入口。
 
+## 示例展示
+
+![录合同示例 1](docs/images/demo-01.png)
+
+![录合同示例 2](docs/images/demo-02.png)
+
+![录合同示例 3](docs/images/demo-03.png)
+
+![录合同示例 4](docs/images/demo-04.png)
+
+![录合同示例 5](docs/images/demo-05.png)
+
 ## 后端运行
 
 后端目录：
